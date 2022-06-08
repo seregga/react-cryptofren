@@ -1,0 +1,70 @@
+@import "./vars.scss";
+
+// very small devices (smartphone)
+@mixin xxxxs {
+    @media (max-width: #{$screen-xxxxs}) {
+        @content;
+    }
+}
+
+// double extra small devices (smartphone)
+@mixin xxxs {
+    @media (max-width: #{$screen-xxxs}) {
+        @content;
+    }
+}
+
+// extra small devices (smartphone)
+@mixin xxs {
+    @media (max-width: #{$screen-xxs}) {
+        @content;
+    }
+}
+
+@mixin min-xxs {
+    @media (min-width: 426px) {
+        @content;
+    }
+}
+
+// small devices (smartphone)
+@mixin xs {
+    @media (max-width: #{$screen-xs}) {
+        @content;
+    }
+}
+
+// Medium devices (tablets)
+@mixin sm {
+    @media (max-width: #{$screen-sm}) {
+        @content;
+    }
+}
+
+// Second Medium devices (ipad Air)
+@mixin smd {
+    @media (max-width: #{$screen-smd}) {
+        @content;
+    }
+}
+
+// Medium devices (big tablets, like iPad Pro)
+@mixin md {
+    @media (max-width: #{$screen-md}) {
+        @content;
+    }
+}
+
+// Large devices (laptops)
+@mixin lg {
+    @media (max-width: #{$screen-lg}) {
+        @content;
+    }
+}
+
+// Extra Large devices (big laptops)
+@mixin xlg {
+    @media (max-width: #{$screen-xlg}) {
+        @content;
+    }
+}

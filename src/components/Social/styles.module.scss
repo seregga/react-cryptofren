@@ -1,0 +1,37 @@
+@import "src/assets/colors";
+@import "src/assets/mixins";
+
+.social {
+  display: flex;
+}
+
+.item {
+  cursor: pointer;
+  width: 50px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid $white;
+
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  @include xs {
+    width: 35px;
+    height: 25px;
+
+    svg {
+      width: 18px;
+      height: 15px;
+    }
+  }
+}
+
+.gradient {
+  filter: drop-shadow(0px 0px 35px rgba(255, 255, 255, 0.25)) drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.58));
+  border: 2px solid transparent !important;
+  background: linear-gradient(#84BCFC, #84BCFC) padding-box padding-box, linear-gradient(315deg, #DF49C7 0%, #F986BE 100%) border-box border-box;
+}

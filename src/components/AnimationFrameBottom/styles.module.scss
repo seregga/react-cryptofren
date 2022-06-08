@@ -1,0 +1,98 @@
+@import "src/assets/mixins";
+
+// облака движ
+.container {
+    position: absolute;
+    width: 100%;
+    top: 950px;
+    max-width: 4068px;
+    margin-top: 20px;
+    height: 1965px;
+    overflow: hidden;
+    z-index: 99;
+    pointer-events: none;
+
+    @include xs {
+        top: 480px;
+        height: 1726px;
+    }
+
+    @media screen and (min-width: 2660px) {
+        top: 1260px;
+    }
+
+    @media screen and (min-width: 3000px) {
+        top: 1350px;
+    }
+
+    @media screen and (max-width: 1445px) {
+        top: 750px;
+    }
+
+    @media screen and (max-width: 1026px) {
+        top: 530px;
+    }
+
+    @media screen and (max-width: 770px) {
+        top: 344px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        z-index: 1;
+    }
+}
+
+.img {
+    width: 100%;
+
+}
+
+.wrapper {
+    position: relative;
+    width: 200%;
+    justify-content: space-around;
+    display: flex;
+    height: 104%;
+    animation: scroll 60s linear forwards infinite;
+    padding-bottom: 60px;
+
+    img {
+        object-fit: inherit;
+    }
+
+
+
+    @include xs {
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        // animation: none;
+    }
+
+    @media screen and (max-width: 575px) {
+        display: block;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        animation: none;
+    }
+}
+
+@keyframes scroll {
+    from {
+        left: -10px;
+
+    }
+
+    to {
+        left: 2010px
+    }
+}

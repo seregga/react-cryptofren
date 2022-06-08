@@ -1,0 +1,29 @@
+@import "src/assets/mixins";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+    z-index: 30;
+    position: relative;
+
+    @media screen and (max-width:1026px) {
+        padding-top: 20px;
+
+    }
+
+}
+
+// кнопка connect wallet
+.button {
+    padding: 0 10px 0 !important;
+    width: fit-content;
+    box-sizing: border-box;
+    white-space: nowrap;
+
+    @include xs {
+        height: 25px;
+        font-size: 11px;
+        line-height: 14px;
+    }
+}

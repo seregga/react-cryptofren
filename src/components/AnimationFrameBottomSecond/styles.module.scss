@@ -1,0 +1,64 @@
+@import "src/assets/mixins";
+
+
+.container {
+    position: absolute;
+    width: 100%;
+    top: 1200px;
+    max-width: 4060px;
+    margin-top: 20px;
+    height: 1764px;
+    overflow: hidden;
+    z-index: 0;
+
+    @include xs {
+        top: 480px;
+        height: 1549px;
+    }
+
+    @media screen and (max-width: 1026px) {
+        top: 800px;
+    }
+
+    @media screen and (max-width: 770px) {
+        top: 600px;
+    }
+
+}
+
+
+.wrapper {
+    position: relative;
+    width: 200%;
+    justify-content: space-around;
+    display: flex;
+    height: 104%;
+    animation: scrollSecond 120s linear forwards infinite;
+    z-index: 22;
+
+    img {
+        object-fit: inherit;
+    }
+
+
+    @include xs {
+        width: 800%;
+        // animation: none;
+    }
+}
+
+.img {
+    width: 100%;
+
+}
+
+@keyframes scrollSecond {
+    from {
+        left: -99px;
+    }
+
+    to {
+        left: 2000px;
+    }
+
+}

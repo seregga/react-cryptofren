@@ -1,0 +1,91 @@
+@import "src/assets/colors";
+@import "src/assets/mixins";
+
+footer {
+    position: relative;
+    overflow: hidden;
+    margin-top: 80px;
+    padding-top: 100px;
+    z-index: 10;
+    width: 100%;
+
+    @media screen and (max-width: 590px) {
+        margin-top: 186px;
+    }
+}
+
+.footer {
+    position: relative;
+    height: 130px;
+    width: 100%;
+    background: linear-gradient(181.37deg, #328668 -41.82%, #52BF71 95.41%);
+    overflow: hidden;
+
+    @media (max-width: 1200px) {
+        height: 110px;
+    }
+
+    @include md {
+        height: 90px;
+    }
+
+    @include xs {
+        height: 90px;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 68px;
+
+    @media (max-width: 1200px) {
+        padding-top: 55px;
+    }
+
+    @include md {
+        padding-top: 44px;
+    }
+
+    @include xs {
+        padding-top: 44px;
+    }
+}
+
+.button {
+    background: white;
+
+    button {
+        background: white;
+    }
+
+    svg {
+        transform: rotate(270deg);
+
+        path {
+            stroke: $green;
+        }
+    }
+}
+
+.image {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 999;
+    top: 32px;
+
+    @include md {
+        top: 24px;
+    }
+
+    @include sm {
+        width: 140%;
+    }
+
+    @include xs {
+        top: 16px;
+    }
+}
