@@ -21,6 +21,8 @@
     }
 
     @media screen and (max-width: 770px) {
+        animation: none;
+        -webkit-animation: none;
         top: 600px;
     }
 

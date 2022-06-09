@@ -12,22 +12,22 @@ import style from './styles.module.scss'
 import { Quote } from './About/Quote/index';
 import Light from '../../components/Light'
 function Main() {
-  return (
-    <div className={style.background}>
-      <AnimationFrameBottom/>
-      <Header />
-    
-      <MainScreen />
-      <Quote/>
-      <About/>
-      <Slider />
-    <Light/>
-      <Footer/>
-      <AnimationFrameTop/>
-      
-      <AnimationFrameBottomSecond/>
-    </div>
-  )
+    return (
+        <div className={style.background}>
+            <AnimationFrameBottom />
+            <Header />
+
+            <MainScreen />
+            <Quote />
+            <About />
+            <Slider />
+            <Light />
+            <Footer />
+            <AnimationFrameTop />
+
+            <AnimationFrameBottomSecond />
+        </div>
+    )
 }
 
 export default Main;

@@ -3,11 +3,11 @@ import { useState } from 'react';
 import { Container } from 'components/Container';
 import { Button } from 'components/Button';
 import { SelectWithValue } from './SelectWithValue';
-import { Icon } from 'components/Icon';
-import logo from './logo.svg'
-import bird from './bird.svg'
+// import { Icon } from 'components/Icon';
+// import logo from './logo.svg'
+// import bird from './bird.svg'
 
-import birds_cloud from './birds_cloud.svg'
+// import birds_cloud from './birds_cloud.svg'
 import style from './styles.module.scss'
 
 export const MainScreen = () => {

@@ -5,11 +5,12 @@
     position: absolute;
     width: 100%;
     top: 950px;
+    left: 0;
     max-width: 4068px;
     margin-top: 20px;
-    height: 1965px;
+    height: 1897px;
     overflow: hidden;
-    z-index: 99;
+    z-index: 40;
     pointer-events: none;
 
     @include xs {
@@ -51,10 +52,8 @@
 
 .wrapper {
     position: relative;
-    width: 200%;
-    justify-content: space-around;
-    display: flex;
-    height: 104%;
+    width: 100%;
+    height: 100%;
     animation: scroll 60s linear forwards infinite;
     padding-bottom: 60px;
 
@@ -62,28 +61,39 @@
         object-fit: inherit;
     }
 
-
-
     @include xs {
         img {
             width: 100%;
             object-fit: cover;
         }
-
-        // animation: none;
     }
 
     @media screen and (max-width: 575px) {
         display: block;
         width: 100%;
     }
-}
 
-
-@media screen and (max-width: 768px) {
-    .wrapper {
+    @media screen and (max-width: 768px) {
         animation: none;
     }
+}
+
+.clouds_static_background_bottom_white {
+    width: 100%;
+    height: 100%;
+    background-image: url(./../../../public/assets/img/cloud_mobile-2-extra-white.png);
+    background-position: 35% 43%;
+    background-repeat: no-repeat;
+    background-size: 102%;
+    z-index: 2;
+}
+
+.cloud_bottom_top {
+    width: 100%;
+    height: 100%;
+    background-image: url(./../../../public/assets/img/cloud_bottom_top.png);
+    background-repeat: no-repeat;
+    // background-size: 150%;
 }
 
 @keyframes scroll {
