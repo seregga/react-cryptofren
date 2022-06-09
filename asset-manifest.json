@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/react-cryptofren/static/css/main.8d6293ad.css",
-    "main.js": "/react-cryptofren/static/js/main.b18b0dc9.js",
-    "static/js/787.512700f9.chunk.js": "/react-cryptofren/static/js/787.512700f9.chunk.js",
+    "main.css": "/react-cryptofren/static/css/main.5498e678.css",
+    "main.js": "/react-cryptofren/static/js/main.f98441e6.js",
     "static/media/Montserrat-Medium.ttf": "/react-cryptofren/static/media/Montserrat-Medium.3a0917345468c959207a.ttf",
     "static/media/Montserrat-Bold.ttf": "/react-cryptofren/static/media/Montserrat-Bold.63fae500fdcf19ce83d4.ttf",
     "static/media/Montserrat-Light.ttf": "/react-cryptofren/static/media/Montserrat-Light.f0963fd9968fbd54cc35.ttf",
@@ -10,18 +9,17 @@
     "static/media/cloud_white.png": "/react-cryptofren/static/media/cloud_white.ac2958fccce0ba6824ac.png",
     "static/media/logo.svg": "/react-cryptofren/static/media/logo.054c8db59ea5a795ae069b05a96e9668.svg",
     "static/media/cloud_back.png": "/react-cryptofren/static/media/cloud_back.c9720d098cd290377827.png",
+    "static/media/cloud_mobile-2-extra-white.png": "/react-cryptofren/static/media/cloud_mobile-2-extra-white.a8923535a314d0d173ca.png",
     "static/media/bird.svg": "/react-cryptofren/static/media/bird.ba63097a87457294de83d7c3aca31089.svg",
-    "static/media/cloud_top_white_mobile.png": "/react-cryptofren/static/media/cloud_top_white_mobile.fcaa34e7a543debebf8e.png",
     "static/media/Bicubik.otf": "/react-cryptofren/static/media/Bicubik.7bbd8074f169cfc9c676.otf",
     "static/media/cloud_top_blue_mobile.png": "/react-cryptofren/static/media/cloud_top_blue_mobile.902a47c50baea80a547d.png",
     "static/media/birds_cloud.svg": "/react-cryptofren/static/media/birds_cloud.18af9d29f51e3cd86cb0a1b3f844946a.svg",
     "index.html": "/react-cryptofren/index.html",
-    "main.8d6293ad.css.map": "/react-cryptofren/static/css/main.8d6293ad.css.map",
-    "main.b18b0dc9.js.map": "/react-cryptofren/static/js/main.b18b0dc9.js.map",
-    "787.512700f9.chunk.js.map": "/react-cryptofren/static/js/787.512700f9.chunk.js.map"
+    "main.5498e678.css.map": "/react-cryptofren/static/css/main.5498e678.css.map",
+    "main.f98441e6.js.map": "/react-cryptofren/static/js/main.f98441e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d6293ad.css",
-    "static/js/main.b18b0dc9.js"
+    "static/css/main.5498e678.css",
+    "static/js/main.f98441e6.js"
   ]
 }
