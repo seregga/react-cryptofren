@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-cryptofren/static/css/main.c6ab1571.css",
-    "main.js": "/react-cryptofren/static/js/main.94331b0b.js",
+    "main.css": "/react-cryptofren/static/css/main.3afa216d.css",
+    "main.js": "/react-cryptofren/static/js/main.b76df613.js",
     "static/media/cloud_bottom_top.png": "/react-cryptofren/static/media/cloud_bottom_top.34c217633324c2f49c94.png",
     "static/media/Montserrat-Medium.ttf": "/react-cryptofren/static/media/Montserrat-Medium.3a0917345468c959207a.ttf",
     "static/media/Montserrat-Bold.ttf": "/react-cryptofren/static/media/Montserrat-Bold.63fae500fdcf19ce83d4.ttf",
@@ -16,11 +16,11 @@
     "static/media/cloud_top_blue_mobile.png": "/react-cryptofren/static/media/cloud_top_blue_mobile.902a47c50baea80a547d.png",
     "static/media/birds_cloud.svg": "/react-cryptofren/static/media/birds_cloud.18af9d29f51e3cd86cb0.svg",
     "index.html": "/react-cryptofren/index.html",
-    "main.c6ab1571.css.map": "/react-cryptofren/static/css/main.c6ab1571.css.map",
-    "main.94331b0b.js.map": "/react-cryptofren/static/js/main.94331b0b.js.map"
+    "main.3afa216d.css.map": "/react-cryptofren/static/css/main.3afa216d.css.map",
+    "main.b76df613.js.map": "/react-cryptofren/static/js/main.b76df613.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6ab1571.css",
-    "static/js/main.94331b0b.js"
+    "static/css/main.3afa216d.css",
+    "static/js/main.b76df613.js"
   ]
 }
